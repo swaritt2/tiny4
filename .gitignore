@@ -1,0 +1,28 @@
+# Vivado generated directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+
+# Vivado generated/log files
+*.jou
+*.log
+*.str
+*.pbl
+*.wdb
+
+# Generated FPGA outputs
+*.bit
+*.bin
+
+# Temporary files
+*.tmp
+*.backup.*
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*~
+
