@@ -1,4 +1,4 @@
-# Tiny4 CPU
+# Tiny4 CPU (README NOT FINISHED)
 
 A complete 4-bit, accumulator-based, multicycle CPU with a custom 8-bit instruction set, designed from scratch in Verilog and running on a **Basys 3 
 (Artix-7) FPGA**.
