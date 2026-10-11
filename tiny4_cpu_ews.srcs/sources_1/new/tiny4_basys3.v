@@ -21,7 +21,7 @@
 
 
 module tiny4_basys3 #(
-    parameter integer PULSE_CYCLES = 50_000_000,
+    parameter integer PULSE_CYCLES = 10_000_000,
     parameter integer DEBOUNCE_CYCLES = 1_000_000
 )(
     input clk,
