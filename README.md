@@ -162,7 +162,7 @@ This table shows which control signals each instruction turns on. Anything not l
 
 ## Example Program
 
-A countdown from 5 to 0 that shows each value on the output, then halts. Subtracting 1 is done with `ADDI 15`, because adding 15 in 4-bit arithmetic wraps around to the same result as subtracting 1.
+A count from 0 to F that shows each value on the output, then halts. It's done with adding until it reaches 0, then jumping to a halt. Otherwise, it jumps back to addi.
 
 <!-- TODO: replace with the program actually stored in your ROM if you prefer -->
 
